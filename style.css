@@ -32,3 +32,74 @@ h3{
     width: 65vw;
     height: 380px;
   }
+  .slider{
+      width:800px;
+      height:500px;
+      background: url(imgs/diet.jpg); 
+      animation: slide 20s infinite;
+  }
+  @keyframes slide{
+      0%{
+          background:url(imgs/h9.jpg)
+      }
+      25%{
+          background:url(imgs/h5.jpg);
+      }
+      50%{
+        background:url(imgs/h6.jpg);
+      }
+      75%{
+        background:url(imgs/h7.jpg);
+      }
+      100%{
+        background:url(imgs/h8.jpg);
+      }
+  }
+  .form .f1, .form .f2 {
+    padding-right: 15px;
+    width: 100%;
+  }
+  
+  input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 5px 30px;
+    height: 45px;
+    font-size: 14px;
+    /*line-height: 1.43px;*/
+    margin-bottom: 15px;
+    background-color: #FFFFC6;
+    border: 1px solid transparent;
+    transition: all .3s;
+  }
+  
+  input[type=text]:hover, input[type=email]:hover, select:hover, textarea:hover, input[type=text]:focus, input[type=email]:focus, select:focus, textarea:focus {
+    border: 10px solid #FCD330;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 16px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #FFFFC6;
+    resize: none;
+    margin-bottom: 15px;
+    transition: all .3s;
+  }
+  
+  input[type=submit] {
+    background: #FCD330;
+    padding: 16px;
+    font-size: 18px;
+    color: white;
+    font-size: bold;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jumbotron{
+    background-image: url("imgs/bgg1.jpg");
+}

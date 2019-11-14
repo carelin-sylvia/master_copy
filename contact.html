@@ -10,6 +10,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimage{
+      background-image:url("imgs/health.jpg");
+      height: 900px;
+      width: 550px;
+  }
+  .myimg{
+    background-image:url("imgs/dolly.jpg");
+    height: 400px;
+  }
+  body{
+      background-image: url("imgs/background.jpg");
+  }
+  </style>
 </head>
 <body>
 <div class="jumbotron text-center" style="margin-bottom:0">
@@ -53,10 +67,9 @@
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="myimg"></div>
-      <p><b>Hey peeps!!! My name is carlin sylvia.</b></p>
+        <h2>About Me</h2>
+        <div class="myimg"></div>
+       <p><b>Hey peeps!!! My name is carlin sylvia.</b></p>
       <h3>Social media</h3>
       <p>Explore my social media website!!!</p>
       <ul class="nav nav-pills flex-column">
@@ -76,29 +89,32 @@
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      <h2>MAKE UP</h2>
-      <h5>Facts about Cosmetics:</h5>
-      <div class="fakeimg"></div><br>
-      <p><i>The first use of prototype cosmetics is usually traced back to the ancient Egyptians; many Egyptian tombs contained makeup canisters and kits. Cleopatra used lipstick that got its hue from ground carmine beetles, while other women used clay mixed with water to color their lips. Most notable, though, was the ancient Egyptians' use of kohl. Both men and women would paint the kohl, a mixture of metal, lead, copper, ash and burnt almonds, all around their eyes -- picture a football player with grease paint under his eye combined with Tammy Faye Baker and her excessive use of mascara. The circles of kohl were meant to ward off the evil eye and dangerous spirits and were also handy in deflecting the harsh desert sun. In recent years, scientists have determined that the kohl makeup may have inadvertently helped the Egyptians ward off infectious diseases; the lead would kill off bacteria, though if the Egyptians had had longer life spans, the lead might have eventually killed them off as well</i></p>
-      <br>
-      <h2>LIPSTICK</h2>
-      <h5>15 BEST MAC LIPSTICK OUT THERE</h5>
-      <div class="lipstick">Fake Image</div><br>
-      <p><b>1. MAC Matte Lipstick in Velvet Teddy<br>
-         2. MAC Retro Matte Lipstick in Ruby Woo<br>
-         3. MAC Matte Lipstick in Diva<br>
-         4. MAC Satin Lipstick in Rebel<br>
-         5. MAC Retro Matte Liquid Lipcolor in Topped With Brandy<br>
-         6. MAC Lustre Lipstick in Capricious<br>
-         7. MAC Frost Lipstick in Fresh Moroccan<br>
-         8. MAC Matte Lipstick in Heroine<br>
-         9. MAC Matte Lipstick in Russian Red<br>
-         10. MAC Retro Matte Liquid Lipcolor in High Drama<br>
-         11. MAC Matte Lipstick in Mehr<br>
-         12. MAC Satin Lipstick in Twig<br>
-         13. MAC Amplified Lipstick in Smoked Almond<br>
-         14. MAC Powder Kiss Lipstick in Burning Love<br>
-         15. MAC Amplified Lipstick in Brick-O-La</b></p>
+            <h1>CONTACT</h1>
+            
+                <form action="carelinscarlett@gmail.com" method="post" enctype="text/plain" >
+            
+                  <div class="form clearfix ">
+            
+                    <div class="f1">
+                      <select name="contries" id="sel" placeholder="Which country?">
+            
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="India">India</option>
+                      </select>
+                      <input type="text" id="fname" name="name" placeholder="First Name" required>
+                      <input type="text" id="lname" name="name" placeholder="Last Name" required>
+                      <input type="email" id="mail" name="email" placeholder="Email">
+                    </div>
+            
+                    <div class="f2">
+                      <textarea name="comments" id="tarea" placeholder="Your message here"></textarea>
+                      <input type="submit" value="SEND">
+                    </div>
+            
+                  </div>
+            
+                </form>
     </div>
   </div>
 </div>
